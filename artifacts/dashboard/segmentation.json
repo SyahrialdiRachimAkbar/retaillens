@@ -1,0 +1,31 @@
+{
+  "selected_k": 2,
+  "silhouette": 0.43042330945401125,
+  "candidates": [
+    {
+      "k": 2,
+      "silhouette": 0.43042330945401125
+    },
+    {
+      "k": 3,
+      "silhouette": 0.334761553136824
+    },
+    {
+      "k": 4,
+      "silhouette": 0.3310034394957288
+    },
+    {
+      "k": 5,
+      "silhouette": 0.2935659510030879
+    },
+    {
+      "k": 6,
+      "silhouette": 0.2834362163662364
+    }
+  ],
+  "method": "K-means on standardized log1p(RFM), descriptive only",
+  "names": {
+    "0": "Occasional shoppers \u00b7 01",
+    "1": "Active loyalists \u00b7 02"
+  }
+}

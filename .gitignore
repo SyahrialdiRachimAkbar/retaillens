@@ -1,0 +1,14 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+data/raw/*
+!data/raw/.gitkeep
+artifacts/models/*
+!artifacts/models/.gitkeep
+artifacts/dashboard/customers.csv
+artifacts/dashboard/transactions.csv
+artifacts/dashboard/customer_predictions.csv
+.env
+.streamlit/secrets.toml
+*.log

@@ -1,0 +1,34 @@
+{
+  "raw_rows": 541909,
+  "steps": [
+    {
+      "reason": "Exact duplicate rows (documented heuristic)",
+      "removed": 5268,
+      "remaining": 536641
+    },
+    {
+      "reason": "Invalid transaction timestamp",
+      "removed": 0,
+      "remaining": 536641
+    },
+    {
+      "reason": "Missing invoice or product identifier",
+      "removed": 0,
+      "remaining": 536641
+    },
+    {
+      "reason": "Cancelled invoices",
+      "removed": 9251,
+      "remaining": 527390
+    },
+    {
+      "reason": "Invalid / non-positive quantity or unit price",
+      "removed": 2512,
+      "remaining": 524878
+    }
+  ],
+  "clean_sales_rows": 524878,
+  "rows_without_customer_id": 132186,
+  "customer_analysis_rows": 392692,
+  "revenue_definition": "Gross positive sales after cleaning; cancellations and returns excluded, not net revenue."
+}
